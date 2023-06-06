@@ -13,7 +13,7 @@ const postRouter = require("./router/postRoutes.js");
 
 app.use(cors(
     {
-        origin: "http://localhost:3000",    // This is the port of react app
+        origin: "https://master--funny-axolotl-e95f31.netlify.app",    // This is the port of react app
         credentials: true
     }
 ));
